@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wajahat Ullah | Chemical Engineer</title>
+    <meta name="description" content="Portfolio of Wajahat Ullah, Chemical Engineer specializing in Process, Thermal Systems & HSE">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!-- FontAwesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Background Canvas for Soft Stars -->
+    <canvas id="stars-canvas"></canvas>
+
+    <!-- Navbar -->
+    <nav class="navbar">
+        <a href="#" class="nav-brand">Wajahat<span>Ullah</span></a>
+        <ul class="nav-links" id="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <button id="theme-toggle" class="theme-toggle" title="Toggle Light/Dark Mode">
+            <i class="fas fa-sync-alt"></i>
+        </button>
+        <div class="hamburger" id="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="container">
+            <img src="assets/images/profile picture.png" alt="Wajahat Ullah" class="profile-img">
+            <h1 class="glow-text">Wajahat Ullah</h1>
+            <h2>Chemical Engineer | Process, Thermal Systems and HSE</h2>
+            <div class="hero-actions">
+                <a href="#about" class="btn btn-primary">Discover My Work</a>
+                <a href="assets/files/Wajahat_Ullah_CV.pdf" download class="btn">Download CV</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="reveal">
+        <div class="container">
+            <h2 class="section-title">About <span>Me</span></h2>
+            <div class="card">
+                <p>Chemical Engineer with a strong academic background and a focus on Health, Safety, and Environment (HSE) practices. Certified in NEBOSH International General Certificate in Occupational Health and Safety, with knowledge of risk assessment, hazard identification, and safety compliance. Familiar with industrial processes through academic projects and plant visits, with practical understanding of safety systems in chemical and cement industries. Eager to apply engineering and safety knowledge to support safe and efficient operations.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="reveal">
+        <div class="container">
+            <h2 class="section-title">Core <span>Competencies</span></h2>
+            <div class="card-grid">
+                <div class="card">
+                    <h3>Process Engineering</h3>
+                    <p>Heat Transfer Analysis, Thermal Systems Design, Computational Fluid Dynamics (CFD), ASPEN Plus Simulation, Separation Processes, Process Optimization, Chemical Reaction Engineering.</p>
+                </div>
+                <div class="card">
+                    <h3>HSE Management</h3>
+                    <p>Risk Assessment, Hazard Identification, HAZOP, Safety Compliance, ISO 45001.</p>
+                </div>
+                <div class="card">
+                    <h3>Engineering Tools</h3>
+                    <p>ASPEN Plus, AutoCAD (basic), P&IDs, PFDs, CFD, Heat Transfer & Mass Transfer Modelling.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience / Projects Section -->
+    <section id="experience" class="reveal">
+        <div class="container">
+            <h2 class="section-title">Industrial Experience & <span>Projects</span></h2>
+            <div class="timeline">
+                
+                <!-- Final Year Project -->
+                <div class="timeline-item">
+                    <div class="timeline-icon"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-date">2022 — 2023</span>
+                        <h3>Final Year Project — UET Peshawar</h3>
+                        <p><strong>Experimental & Theoretical Investigation of Heat Transfer Coefficient — Ammonia Synthesis Plant</strong></p>
+                        <ul class="styled-list">
+                            <li>Achieved a 30% increase in thermal energy efficiency for an industrial heat exchanger system using the INSERT method.</li>
+                            <li>Developed and validated a comprehensive correlation for overall heat transfer coefficient, leveraging CFD analysis.</li>
+                            <li>Applied ASPEN Plus simulation and P&ID mapping to model the ammonia synthesis process.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Phosphate Industry Visit -->
+                <div class="timeline-item">
+                    <div class="timeline-icon"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-date">April 2021</span>
+                        <h3>Industrial Visit — Hazara Phosphate Fertilizer Pvt. Ltd.</h3>
+                        <p><strong>Phosphate Industry</strong></p>
+                        <ul class="styled-list">
+                            <li>Observed phosphate processing operations (crushing, grinding, chemical treatment).</li>
+                            <li>Gained understanding of PFDs, plant layout, safety protocols, and hazard control measures.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Cement Industry Visit -->
+                <div class="timeline-item">
+                    <div class="timeline-icon"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-date">February 2020</span>
+                        <h3>Industrial Visit — Hattar, Haripur</h3>
+                        <p><strong>Cement Industry</strong></p>
+                        <ul class="styled-list">
+                            <li>Studied cement manufacturing, raw material preparation, kiln operation, and clinker production.</li>
+                            <li>Observed heat transfer, dust control systems, and HAZOP principles in practice.</li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="reveal">
+        <div class="container">
+            <h2 class="section-title">Education & <span>Certifications</span></h2>
+            <div class="card-grid">
+                <div class="card">
+                    <h3>Bachelor of Science in Chemical Engineering</h3>
+                    <p style="color: var(--accent-1); margin-bottom: 0.5rem; font-weight: bold;">UET Peshawar (2019 — 2023)</p>
+                    <p>Relevant Coursework: Heat Transfer, Mass Transfer, Fluid Mechanics, Thermodynamics, Process Control, Separation Processes, Plant Design.</p>
+                </div>
+                <div class="card">
+                    <h3>Certifications</h3>
+                    <ul class="styled-list">
+                        <li>PEC Registered Engineer — BSc Chemical Engineering</li>
+                        <li>NEBOSH International General Certificate in Occupational Health and Safety</li>
+                        <li>ISO 45001 — Occupational Health and Safety Management Systems</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="reveal">
+        <div class="container">
+            <h2 class="section-title">Get In <span>Touch</span></h2>
+            <div style="display: flex; flex-wrap: wrap; justify-content: space-between; gap: 2rem;">
+                <div class="card" style="flex: 1; display: flex; align-items: center; gap: 1.5rem; text-align: left; min-width: 350px;">
+                    <i class="fas fa-map-marker-alt" style="font-size: 2.5rem; color: var(--accent-2); flex-shrink: 0;"></i>
+                    <div style="min-width: 0;">
+                        <h3 style="margin-bottom: 0.2rem;">Location</h3>
+                        <p>Bannu, KPK, Pakistan</p>
+                    </div>
+                </div>
+                <div class="card" style="flex: 1; display: flex; align-items: center; gap: 1.5rem; text-align: left; min-width: 350px;">
+                    <i class="fas fa-phone-alt" style="font-size: 2.5rem; color: var(--accent-2); flex-shrink: 0;"></i>
+                    <div style="min-width: 0;">
+                        <h3 style="margin-bottom: 0.2rem;">Phone</h3>
+                        <p>+92 341 707 7377</p>
+                    </div>
+                </div>
+                <div class="card" style="flex: 1; display: flex; align-items: center; gap: 1.5rem; text-align: left; min-width: 350px;">
+                    <i class="fas fa-envelope" style="font-size: 2.5rem; color: var(--accent-2); flex-shrink: 0;"></i>
+                    <div style="min-width: 0;">
+                        <h3 style="margin-bottom: 0.2rem;">Email</h3>
+                        <p style="overflow-wrap: anywhere; word-break: break-all;">engr.wajahatullah.hse@gmail.com</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Floating Action Buttons -->
+    <div class="floating-actions">
+        <a href="https://wa.me/923417077377" target="_blank" class="float-btn float-whatsapp" title="Chat on WhatsApp">
+            <i class="fab fa-whatsapp"></i>
+        </a>
+    </div>
+
+    <!-- Floating Credit -->
+    <a href="https://wa.me/923090757010" target="_blank" class="float-credit" title="Contact Nest Portfolios">
+        Created by <strong>Nest Portfolios</strong>
+    </a>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <div class="container">
+            <div class="footer-grid">
+                <!-- Brand / Bio -->
+                <div class="footer-col">
+                    <h3 class="footer-brand">Wajahat<span>Ullah</span></h3>
+                    <p class="footer-bio">Chemical Engineer specializing in Process, Thermal Systems, and HSE. Delivering precision and safety in every project.</p>
+                </div>
+                
+                <!-- Quick Links -->
+                <div class="footer-col">
+                    <h4 class="footer-heading">Quick Links</h4>
+                    <div class="footer-links">
+                        <a href="#home">Home</a>
+                        <a href="#about">About</a>
+                        <a href="#skills">Skills</a>
+                        <a href="#experience">Experience</a>
+                        <a href="#education">Education</a>
+                    </div>
+                </div>
+
+                <!-- Contact Info -->
+                <div class="footer-col">
+                    <h4 class="footer-heading">Contact</h4>
+                    <div class="footer-contact">
+                        <p><i class="fas fa-map-marker-alt"></i> Bannu, KPK, Pakistan</p>
+                        <p><i class="fas fa-phone-alt"></i> +92 341 707 7377</p>
+                        <p><i class="fas fa-envelope"></i> engr.wajahatullah.hse@gmail.com</p>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Bottom Bar -->
+            <div class="footer-bottom">
+                <p>&copy; 2026 Wajahat Ullah. All Rights Reserved.</p>
+                <p>Created by <a href="https://wa.me/923090757010" target="_blank" class="credit-link">Nest Portfolios</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
