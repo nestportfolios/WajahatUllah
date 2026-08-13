@@ -1,0 +1,576 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wajahat Ullah | NEBOSH IGC Certified Safety Engineer</title>
+    <meta name="description" content="Portfolio of Wajahat Ullah — NEBOSH IGC Certified Safety Engineer with 2+ years in HSE management, risk assessment, ISO 45001 compliance, and zero-harm industrial safety leadership.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;600;700;800;900&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <!-- Preloader -->
+    <div id="preloader">
+        <div class="preloader-content">
+            <div class="preloader-badge">
+                <i class="fas fa-shield-alt"></i> NEBOSH IGC Certified
+            </div>
+            <h1 class="preloader-text">Wajahat <span>Ullah</span></h1>
+            <div class="preloader-bar"></div>
+        </div>
+    </div>
+
+    <!-- Hidden stars canvas (kept for JS compatibility) -->
+    <canvas id="stars-canvas"></canvas>
+
+    <!-- ── NAVBAR ── -->
+    <nav class="navbar" id="navbar">
+        <a href="#home" class="nav-brand">
+            Wajahat<span>Ullah</span>
+            <span class="nav-brand-badge">NEBOSH IGC</span>
+        </a>
+        <ul class="nav-links" id="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <button id="theme-toggle" class="theme-toggle" title="Toggle Theme">
+            <i class="fas fa-moon"></i>
+        </button>
+        <div class="hamburger" id="hamburger">
+            <span></span><span></span><span></span>
+        </div>
+    </nav>
+
+    <!-- ── HERO ── -->
+    <section class="hero" id="home">
+        <div class="hero-inner">
+
+            <!-- Left: Text -->
+            <div class="hero-text">
+                <div class="hero-status reveal">
+                    <span class="status-dot"></span>
+                    Open to HSE Opportunities
+                </div>
+
+                <h1 class="reveal">
+                    Wajahat<br>
+                    <span class="name-accent">Ullah</span>
+                </h1>
+
+                <p class="hero-tagline reveal">// Safety Engineer · NEBOSH IGC · ISO 45001</p>
+
+                <p class="hero-desc reveal">
+                    NEBOSH IGC Certified Safety Engineer with 2+ years of hands-on HSE experience in high-risk cement manufacturing. Specialising in hazard identification, incident investigation, and building a zero-harm safety culture.
+                </p>
+
+                <!-- Stats -->
+                <div class="hero-stats reveal">
+                    <div class="hero-stat">
+                        <span class="hero-stat-num">500+</span>
+                        <span class="hero-stat-label">Workforce Covered</span>
+                    </div>
+                    <div class="hero-stat">
+                        <span class="hero-stat-num">200+</span>
+                        <span class="hero-stat-label">Hazards / Year</span>
+                    </div>
+                    <div class="hero-stat">
+                        <span class="hero-stat-num">35%</span>
+                        <span class="hero-stat-label">Incident Reduction</span>
+                    </div>
+                    <div class="hero-stat">
+                        <span class="hero-stat-num">0</span>
+                        <span class="hero-stat-label">Lost-Time Incidents</span>
+                    </div>
+                </div>
+
+                <div class="hero-actions reveal">
+                    <a href="#experience" class="btn btn-primary" id="hero-discover-btn">
+                        View Experience <i class="fas fa-arrow-right"></i>
+                    </a>
+                    <a href="assets/files/Wajahat_Ullah_CV.pdf" download class="btn btn-outline" id="hero-cv-btn">
+                        Download CV <i class="fas fa-download"></i>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Right: Profile Card -->
+            <div class="hero-visual reveal">
+                <div class="profile-card">
+                    <div class="profile-img-container">
+                        <div class="profile-img-ring"></div>
+                        <img src="assets/images/profile picture.png" alt="Wajahat Ullah — Safety Engineer" class="profile-img">
+                    </div>
+                    <p class="profile-name">Wajahat Ullah</p>
+                    <p class="profile-title">Safety Engineer</p>
+
+                    <div class="profile-badges">
+                        <div class="profile-badge highlight">
+                            <i class="fas fa-certificate"></i>
+                            NEBOSH IGC Certified
+                        </div>
+                        <div class="profile-badge">
+                            <i class="fas fa-industry"></i>
+                            Kohat Cement Co. Ltd.
+                        </div>
+                        <div class="profile-badge">
+                            <i class="fas fa-shield-check"></i>
+                            ISO 45001 Compliant
+                        </div>
+                        <div class="profile-badge">
+                            <i class="fas fa-graduation-cap"></i>
+                            B.E. Chemical Engineering
+                        </div>
+                    </div>
+
+                    <p class="profile-location">
+                        <i class="fas fa-map-marker-alt" style="color: var(--amber-400);"></i>
+                        Karak, KPK, Pakistan
+                    </p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- ── ABOUT ── -->
+    <section id="about">
+        <div class="container">
+            <div class="section-header reveal">
+                <span class="section-label">Who I Am</span>
+                <h2 class="section-title">About <span class="accent">Me</span></h2>
+            </div>
+
+            <div class="about-grid">
+                <div class="about-summary reveal">
+                    <p>
+                        NEBOSH IGC Certified Safety Engineer with 2+ years of progressive HSE experience in high-risk cement manufacturing environments. I have a proven track record of managing risks, enforcing compliance with ISO 45001/OSHA standards, and fostering a proactive safety culture across large industrial workforces. My background in Chemical Engineering gives me a strong technical foundation to identify process hazards and implement effective engineering controls — not just administrative ones. I am committed to delivering measurable, zero-harm outcomes through hands-on field safety leadership.
+                    </p>
+                </div>
+
+                <div class="about-card reveal">
+                    <div class="about-card-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3>Zero-Harm Commitment</h3>
+                    <p>Driven by a genuine belief that all workplace injuries are preventable. Every inspection, every toolbox talk, and every risk assessment is carried out with that mission in mind.</p>
+                </div>
+
+                <div class="about-card reveal">
+                    <div class="about-card-icon">
+                        <i class="fas fa-cogs"></i>
+                    </div>
+                    <h3>Engineering Foundation</h3>
+                    <p>A Chemical Engineering degree means I understand process hazards at a technical level — from HAZOP studies to P&amp;ID reading — going beyond basic compliance checklists.</p>
+                </div>
+
+                <div class="about-card reveal">
+                    <div class="about-card-icon">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <h3>Workforce Engagement</h3>
+                    <p>Safety culture is built through people. I specialise in delivering impactful toolbox talks, safety inductions, and emergency drills that create lasting behavioural change.</p>
+                </div>
+
+                <div class="about-card reveal">
+                    <div class="about-card-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3>Data-Driven Safety</h3>
+                    <p>I track, analyse, and report HSE performance indicators to identify trends, drive continuous improvement, and present clear safety metrics to management.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ── IMPACT BY NUMBERS ── -->
+    <section id="impact">
+        <div class="container">
+            <div class="section-header center reveal">
+                <span class="section-label">Proven Track Record</span>
+                <h2 class="section-title">Impact by <span class="accent">Numbers</span></h2>
+                <p class="section-subtitle">Real results from real field work — every number below is drawn directly from on-site HSE performance at Kohat Cement Company Limited.</p>
+            </div>
+
+            <div class="impact-grid">
+
+                <div class="impact-card reveal">
+                    <div class="impact-icon"><i class="fas fa-search"></i></div>
+                    <div class="impact-num">200+</div>
+                    <div class="impact-title">Hazards Identified Per Year</div>
+                    <p class="impact-desc">Conducted comprehensive safety audits and inspections across all production zones — raw material, kiln, milling, and dispatch — identifying and recording 200+ hazards every year for corrective action.</p>
+                    <div class="impact-tag">Safety Audits · HSE Inspections</div>
+                </div>
+
+                <div class="impact-card reveal">
+                    <div class="impact-icon"><i class="fas fa-chart-line"></i></div>
+                    <div class="impact-num">35%</div>
+                    <div class="impact-title">Recordable Incident Rate Reduced</div>
+                    <p class="impact-desc">Through a systematic audit programme, rigorous PTW enforcement, and proactive near-miss reporting, the site's recordable incident rate dropped by 35% over two years of sustained safety leadership.</p>
+                    <div class="impact-tag">Incident Prevention · KPI Improvement</div>
+                </div>
+
+                <div class="impact-card reveal">
+                    <div class="impact-icon"><i class="fas fa-redo-alt"></i></div>
+                    <div class="impact-num">40%</div>
+                    <div class="impact-title">Repeat Incidents Eliminated</div>
+                    <p class="impact-desc">Applied Root Cause Analysis (RCA) and the 5-Whys methodology to every incident investigation. CAPA reports ensured corrective actions were implemented and verified — cutting repeat incidents by 40% in year one.</p>
+                    <div class="impact-tag">RCA · CAPA · Root Cause Analysis</div>
+                </div>
+
+                <div class="impact-card reveal">
+                    <div class="impact-icon"><i class="fas fa-users"></i></div>
+                    <div class="impact-num">300+</div>
+                    <div class="impact-title">Workers & Contractors Trained</div>
+                    <p class="impact-desc">Designed and delivered safety inductions, toolbox talks, and emergency response drills to over 300 workers and contractors — including new hires, shift workers, and third-party maintenance teams on site.</p>
+                    <div class="impact-tag">Toolbox Talks · Safety Inductions · Drills</div>
+                </div>
+
+                <div class="impact-card reveal">
+                    <div class="impact-icon"><i class="fas fa-brain"></i></div>
+                    <div class="impact-num">25%</div>
+                    <div class="impact-title">Safety Awareness Score Increase</div>
+                    <p class="impact-desc">Annual behavioural safety surveys showed a 25% uplift in workforce safety awareness scores — a direct result of consistent HSE training, proactive communication campaigns, and visible safety leadership on the ground.</p>
+                    <div class="impact-tag">Behavioural Safety · Safety Culture</div>
+                </div>
+
+                <div class="impact-card reveal">
+                    <div class="impact-icon"><i class="fas fa-hard-hat"></i></div>
+                    <div class="impact-num">500+</div>
+                    <div class="impact-title">Workforce Protected Under PTW</div>
+                    <p class="impact-desc">Managed and enforced the Permit to Work (PTW) system across a combined workforce of 500+ employees and contractors — ensuring every high-risk task was assessed, authorised, and carried out safely with zero lost-time incidents during traineeship.</p>
+                    <div class="impact-tag">PTW · JSA · Contractor Safety</div>
+                </div>
+
+                <!-- Zero LTI — Full-width featured card -->
+                <div class="impact-card impact-card--featured reveal">
+                    <div class="impact-featured-inner">
+                        <div class="impact-featured-left">
+                            <div class="impact-icon impact-icon--green"><i class="fas fa-shield-alt"></i></div>
+                            <div class="impact-num impact-num--green">0</div>
+                            <div class="impact-title">Lost-Time Incidents</div>
+                        </div>
+                        <div class="impact-featured-right">
+                            <p class="impact-feat-label">The Ultimate HSE Benchmark</p>
+                            <p class="impact-desc">
+                                Throughout the entire traineeship year (November 2021 – November 2022), <strong>zero lost-time incidents</strong> were recorded across the site. This was achieved through strict Permit to Work (PTW) enforcement, proactive hazard identification during 50+ monthly inspections, and consistent worker engagement in near-miss reporting — demonstrating that rigorous process compliance directly prevents workplace harm.
+                            </p>
+                            <div class="impact-feat-pills">
+                                <span class="impact-feat-pill"><i class="fas fa-check-circle"></i> PTW Enforcement</span>
+                                <span class="impact-feat-pill"><i class="fas fa-check-circle"></i> Near-Miss Reporting</span>
+                                <span class="impact-feat-pill"><i class="fas fa-check-circle"></i> 12-Month Record</span>
+                                <span class="impact-feat-pill"><i class="fas fa-check-circle"></i> 500+ Workforce</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="impact-tag impact-tag--green">Zero Harm · Lost-Time Incident Free · Occupational Safety Achievement</div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ── CORE COMPETENCIES ── -->
+    <section id="skills">
+        <div class="container">
+            <div class="section-header center reveal">
+                <span class="section-label">What I Do</span>
+                <h2 class="section-title">Core <span class="accent">Competencies</span></h2>
+                <p class="section-subtitle">The key HSE skills and expertise I bring to every role and every site.</p>
+            </div>
+
+            <div class="competencies-grid">
+                <div class="comp-card reveal">
+                    <div class="comp-icon"><i class="fas fa-search"></i></div>
+                    <h3>Safety & Risk</h3>
+                    <div class="comp-tags">
+                        <span class="comp-tag">Risk Assessment</span>
+                        <span class="comp-tag">Hazard Spotting</span>
+                        <span class="comp-tag">Site Audits</span>
+                        <span class="comp-tag">Incident Investigation</span>
+                        <span class="comp-tag">Root Cause Analysis</span>
+                    </div>
+                </div>
+
+                <div class="comp-card reveal">
+                    <div class="comp-icon"><i class="fas fa-file-signature"></i></div>
+                    <h3>HSE Systems</h3>
+                    <div class="comp-tags">
+                        <span class="comp-tag">Permit to Work (PTW)</span>
+                        <span class="comp-tag">Job Safety Analysis</span>
+                        <span class="comp-tag">ISO 45001</span>
+                        <span class="comp-tag">OSHA Compliance</span>
+                        <span class="comp-tag">CAPA Reports</span>
+                    </div>
+                </div>
+
+                <div class="comp-card reveal">
+                    <div class="comp-icon"><i class="fas fa-medkit"></i></div>
+                    <h3>Training & Emergency</h3>
+                    <div class="comp-tags">
+                        <span class="comp-tag">Toolbox Talks</span>
+                        <span class="comp-tag">Safety Inductions</span>
+                        <span class="comp-tag">Emergency Response</span>
+                        <span class="comp-tag">First Aid</span>
+                        <span class="comp-tag">Fire Drills</span>
+                    </div>
+                </div>
+
+                <div class="comp-card reveal">
+                    <div class="comp-icon"><i class="fas fa-hard-hat"></i></div>
+                    <h3>Process Safety</h3>
+                    <div class="comp-tags">
+                        <span class="comp-tag">HAZOP Studies</span>
+                        <span class="comp-tag">P&amp;IDs Reading</span>
+                        <span class="comp-tag">PFD Analysis</span>
+                        <span class="comp-tag">Dust Control</span>
+                        <span class="comp-tag">Kiln Safety</span>
+                    </div>
+                </div>
+
+                <div class="comp-card reveal">
+                    <div class="comp-icon"><i class="fas fa-clipboard-list"></i></div>
+                    <h3>Documentation</h3>
+                    <div class="comp-tags">
+                        <span class="comp-tag">Incident Reports</span>
+                        <span class="comp-tag">Risk Registers</span>
+                        <span class="comp-tag">Method Statements</span>
+                        <span class="comp-tag">Inspection Records</span>
+                        <span class="comp-tag">KPI Dashboards</span>
+                    </div>
+                </div>
+
+                <div class="comp-card reveal">
+                    <div class="comp-icon"><i class="fas fa-laptop"></i></div>
+                    <h3>Technical Tools</h3>
+                    <div class="comp-tags">
+                        <span class="comp-tag">MS Excel</span>
+                        <span class="comp-tag">MS Word</span>
+                        <span class="comp-tag">PowerPoint</span>
+                        <span class="comp-tag">ASPEN Plus</span>
+                        <span class="comp-tag">AutoCAD (Basic)</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ── PROFESSIONAL EXPERIENCE ── -->
+    <section id="experience">
+        <div class="container">
+            <div class="section-header reveal">
+                <span class="section-label">Career Timeline</span>
+                <h2 class="section-title">Professional <span class="accent">Experience</span></h2>
+                <p class="section-subtitle">Hands-on HSE leadership in one of Pakistan's leading heavy industrial environments.</p>
+            </div>
+
+            <div class="timeline">
+                <div class="timeline-line"></div>
+
+                <!-- Safety Engineer (Current) -->
+                <div class="timeline-item current reveal">
+                    <div class="timeline-dot">
+                        <i class="fas fa-hard-hat"></i>
+                    </div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3 class="timeline-title">
+                                Safety Engineer
+                                <span class="current-tag"><span class="status-dot" style="width:6px;height:6px;"></span> Current</span>
+                            </h3>
+                            <span class="timeline-date">Nov 2022 — Present</span>
+                        </div>
+                        <p class="timeline-company">
+                            <i class="fas fa-building"></i>
+                            Kohat Cement Company Limited | Kohat, Pakistan
+                        </p>
+                        <ul class="styled-list">
+                            <li>Led safety audit &amp; inspection program across all production zones — identified 200+ hazards annually, reducing recordable incident rates by <strong style="color: var(--amber-400);">35%</strong> over two years.</li>
+                            <li>Developed and enforced PTW and JSA frameworks, ensuring 100% safe-work-procedure compliance across 500+ employees and contractors.</li>
+                            <li>Conducted incident investigations using Root Cause Analysis (RCA), generating CAPA reports that cut repeat incidents by <strong style="color: var(--amber-400);">40%</strong> in the first year.</li>
+                            <li>Designed and delivered toolbox talks and emergency drills for 300+ workers, raising safety culture awareness scores by <strong style="color: var(--amber-400);">25%</strong>.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Trainee Safety Engineer -->
+                <div class="timeline-item reveal">
+                    <div class="timeline-dot">
+                        <i class="fas fa-user-graduate"></i>
+                    </div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3 class="timeline-title">Trainee Safety Engineer</h3>
+                            <span class="timeline-date">Nov 2021 — Nov 2022</span>
+                        </div>
+                        <p class="timeline-company">
+                            <i class="fas fa-building"></i>
+                            Kohat Cement Company Limited | Kohat, Pakistan
+                        </p>
+                        <ul class="styled-list">
+                            <li>Assisted in 50+ workplace safety inspections and risk assessments per month across cement milling, kiln, and dispatch operations.</li>
+                            <li>Monitored Permit to Work (PTW) procedures, contributing to zero lost-time incidents throughout the traineeship period.</li>
+                            <li>Co-facilitated weekly toolbox talks and HSE campaigns, engaging 200+ employees in near-miss reporting.</li>
+                            <li>Maintained HSE documentation including inspection records and incident logs for monthly management reporting.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Technical Intern -->
+                <div class="timeline-item reveal">
+                    <div class="timeline-dot">
+                        <i class="fas fa-industry"></i>
+                    </div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3 class="timeline-title">Technical Intern</h3>
+                            <span class="timeline-date">2019 · 8 Weeks</span>
+                        </div>
+                        <p class="timeline-company">
+                            <i class="fas fa-building"></i>
+                            Hattar Cement Industry | Hattar, Haripur, Pakistan
+                        </p>
+                        <ul class="styled-list">
+                            <li>Observed safety-critical cement manufacturing operations, building foundational understanding of process hazards and industrial safety controls.</li>
+                            <li>Applied HAZOP principles and reviewed PFDs and P&amp;IDs to understand engineering safeguards embedded in production systems.</li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ── EDUCATION & CERTIFICATIONS ── -->
+    <section id="education">
+        <div class="container">
+            <div class="section-header reveal">
+                <span class="section-label">Qualifications</span>
+                <h2 class="section-title">Education &amp; <span class="accent">Certifications</span></h2>
+                <p class="section-subtitle">Academic grounding in Chemical Engineering combined with industry-recognised HSE credentials.</p>
+            </div>
+
+            <div class="edu-grid">
+                <div class="edu-card reveal">
+                    <div class="edu-icon"><i class="fas fa-graduation-cap"></i></div>
+                    <h3>Bachelor of Engineering — Chemical Engineering</h3>
+                    <p class="edu-meta">UET Peshawar · 2017 — 2021</p>
+                    <p>Specialised in process engineering, thermodynamics, heat &amp; mass transfer, fluid mechanics, and process plant design — providing a strong technical foundation for process safety analysis.</p>
+                </div>
+
+                <div class="edu-card reveal">
+                    <div class="edu-icon"><i class="fas fa-school"></i></div>
+                    <h3>FSC Pre-Engineering</h3>
+                    <p class="edu-meta">Oxford Group of Colleges Karak · 2015 — 2017</p>
+                    <p>Physics, Chemistry, and Mathematics — the scientific foundation that underpins technical safety analysis and engineering problem-solving.</p>
+                </div>
+
+                <div class="edu-card reveal" style="grid-column: 1 / -1;">
+                    <div class="edu-icon"><i class="fas fa-certificate"></i></div>
+                    <h3>Professional Certifications &amp; Training</h3>
+                    <ul class="cert-list">
+                        <li>
+                            <i class="fas fa-check-circle"></i>
+                            <div><strong>NEBOSH International General Certificate (IGC)</strong> in Occupational Health and Safety — Industry's gold-standard HSE qualification</div>
+                        </li>
+                        <li>
+                            <i class="fas fa-check-circle"></i>
+                            <div><strong>ISO 45001:2018</strong> — Occupational Health and Safety Management Systems</div>
+                        </li>
+                        <li>
+                            <i class="fas fa-check-circle"></i>
+                            <div>Process &amp; Instrumentation Diagrams (P&amp;IDs) | Process Flow Diagrams (PFDs)</div>
+                        </li>
+                        <li>
+                            <i class="fas fa-check-circle"></i>
+                            <div>Computational Fluid Dynamics (CFD) | Heat Transfer &amp; Mass Transfer Modelling</div>
+                        </li>
+                        <li>
+                            <i class="fas fa-check-circle"></i>
+                            <div>CPD Workshop — Continuous Professional Development</div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ── CONTACT ── -->
+    <section id="contact">
+        <div class="container">
+            <div class="section-header center reveal">
+                <span class="section-label">Get In Touch</span>
+                <h2 class="section-title">Contact <span class="accent">Details</span></h2>
+                <p class="section-subtitle">Available for HSE Officer and Safety Engineer roles. Let's connect.</p>
+            </div>
+
+            <div class="contact-grid">
+                <div class="contact-card reveal">
+                    <div class="contact-icon"><i class="fas fa-map-marker-alt"></i></div>
+                    <h3>Location</h3>
+                    <p>Karak, Khyber Pakhtunkhwa, Pakistan</p>
+                </div>
+                <div class="contact-card reveal">
+                    <div class="contact-icon"><i class="fas fa-phone-alt"></i></div>
+                    <h3>Phone</h3>
+                    <p>+92 341 707 7377</p>
+                </div>
+                <div class="contact-card reveal">
+                    <div class="contact-icon"><i class="fas fa-envelope"></i></div>
+                    <h3>Email</h3>
+                    <p>engr.wajahatullah.hse@gmail.com</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ── FLOATING ACTIONS ── -->
+    <div class="floating-actions">
+        <a href="https://wa.me/923417077377" target="_blank" class="float-btn float-whatsapp" title="Chat on WhatsApp" id="whatsapp-btn">
+            <i class="fab fa-whatsapp"></i>
+        </a>
+    </div>
+
+    <!-- ── FOOTER ── -->
+    <footer class="site-footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h3 class="footer-brand">Wajahat<span>Ullah</span></h3>
+                    <p class="footer-bio">NEBOSH IGC Certified Safety Engineer committed to zero-harm outcomes through proactive HSE leadership, rigorous risk management, and continuous safety culture improvement.</p>
+                </div>
+                <div class="footer-col">
+                    <h4 class="footer-heading">Quick Links</h4>
+                    <div class="footer-links">
+                        <a href="#home">Home</a>
+                        <a href="#about">About</a>
+                        <a href="#skills">Skills</a>
+                        <a href="#experience">Experience</a>
+                        <a href="#education">Education</a>
+                        <a href="#contact">Contact</a>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <h4 class="footer-heading">Contact</h4>
+                    <div class="footer-contact">
+                        <p><i class="fas fa-map-marker-alt"></i> Karak, KPK, Pakistan</p>
+                        <p><i class="fas fa-phone-alt"></i> +92 341 707 7377</p>
+                        <p><i class="fas fa-envelope"></i> engr.wajahatullah.hse@gmail.com</p>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Wajahat Ullah. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
